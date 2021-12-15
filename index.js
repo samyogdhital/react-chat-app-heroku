@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://www.samratdhital.com.np",
+    origin: "www.samratdhital.com.np",
     methods: ["GET", "POST"],
   },
 });
